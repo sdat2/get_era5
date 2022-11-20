@@ -1,0 +1,5 @@
+"""Module to store the __version__ string etc."""
+__version__ = "0.0.0"
+__project__ = "Get ERA5 Helper Scripts"
+__copyright__ = "2022, Simon Thomas"
+__author__ = "Simon Thomas"
