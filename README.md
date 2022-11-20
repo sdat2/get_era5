@@ -1,4 +1,4 @@
-# get_ear5 README
+# get_era5 README
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![Python package](https://github.com/sdat2/get_era5/actions/workflows/pytest.yml/badge.svg)](https://github.com/sdat2/get_era5/actions/workflows/pytest.yml)[![Documentation Status](https://readthedocs.org/projects/get_era5/badge/?version=latest)](https://get_era5.readthedocs.io/en/latest/?badge=latest)[![PyPI version](https://badge.fury.io/py/get_era5.svg)](https://badge.fury.io/py/get_era5)[![DOI](https://zenodo.org/badge/496635214.svg)](https://zenodo.org/badge/latestdoi/496635214)
 

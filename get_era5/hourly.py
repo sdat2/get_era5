@@ -23,7 +23,7 @@ def str_to_date(strdate: Union[str, any], dateformat: str = DATEFORMAT) -> any:
         any: Datetime object.
 
     Example:
-        >>> from src.data_loading.ecmwf import str_to_date
+        >>> from get_era5.hourly import str_to_date
         >>> date = str_to_date("2005-08-25")
         >>> date.year
         2005
@@ -103,7 +103,7 @@ def year_month_day_lists(
         List[List[str]]: [[Year, Month, [Day1, Day2, ...]], [[Month2], ...]]
 
     Examples of use::
-        >>> from src.data_loading.ecmwf import year_month_day_lists
+        >>> from get_era5.hourly import year_month_day_lists
         >>> year_month_day_lists("2005-08-20", "2005-08-31")
             [['2005', '08', ['20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31']]]
         >>> year_month_day_lists("2021-08-29", "2021-09-05")
