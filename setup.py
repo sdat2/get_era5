@@ -69,7 +69,7 @@ setup(
     version=about["__version__"],
     author=about["__author__"],
     author_email="sdat2@cam.ac.uk",
-    description="General utility scripts",
+    description="ERA5 Download Scripts",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=str("https://github.com/sdat2/" + NAME),
