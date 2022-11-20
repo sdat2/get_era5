@@ -1,6 +1,6 @@
 # sithom README
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![Python package](https://github.com/sdat2/sithom/actions/workflows/python-package.yml/badge.svg)](https://github.com/sdat2/sithom/actions/workflows/python-package.yml)[![Documentation Status](https://readthedocs.org/projects/sithom/badge/?version=latest)](https://sithom.readthedocs.io/en/latest/?badge=latest)[![PyPI version](https://badge.fury.io/py/sithom.svg)](https://badge.fury.io/py/sithom)[![DOI](https://zenodo.org/badge/496635214.svg)](https://zenodo.org/badge/latestdoi/496635214)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![Python package](https://github.com/sdat2/sithom/actions/workflows/pytest.yml/badge.svg)](https://github.com/sdat2/sithom/actions/workflows/pytest.yml)[![Documentation Status](https://readthedocs.org/projects/get_era5/badge/?version=latest)](https://get_era5.readthedocs.io/en/latest/?badge=latest)[![PyPI version](https://badge.fury.io/py/get_era5.svg)](https://badge.fury.io/py/get_era5)[![DOI](https://zenodo.org/badge/496635214.svg)](https://zenodo.org/badge/latestdoi/496635214)
 
 
 ## Description
@@ -17,7 +17,7 @@ pip install get_era5
 ## Install using conda
 
 ```txt
-conda install -c conda-forge sithom
+conda install -c conda-forge get_era5
 ```
 
 ## Package structure
@@ -36,13 +36,6 @@ conda install -c conda-forge sithom
 |   |
 │   ├── __init__.py    <- Init file.
 │   ├── _version.py    <- Key package information.
-│   ├── curve.py       <- Curve fitting w. uncertainty propogation.
-│   ├── misc.py        <- Miscellanious utilties.
-│   ├── place.py       <- Place objects.
-│   ├── plot.py        <- Plot utilties.
-│   ├── time.py        <- Time utilties.
-│   ├── unc.py         <- Uncertainties utilties.
-│   └── xr.py          <- Xarray utilties.
 |
 └── tests              <- Test folder.
 
@@ -51,9 +44,6 @@ conda install -c conda-forge sithom
 ## Requirements
 
  - Python 3.8+
- - `matplotlib`
- - `seaborn`
- - `cmocean`
+ - `sithom`
+ - `cdsapi`
  - `xarray`
- - `uncertainties`
- - `jupyterthemes`
