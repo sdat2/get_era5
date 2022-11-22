@@ -7,6 +7,7 @@
 
 A package for downloading ERA5 easily.
 
+# !NOTE: NOT YET READY FOR PUBLIC USE!
 
 ## Install using pip
 
